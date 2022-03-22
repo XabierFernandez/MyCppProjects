@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/xabier/Git_repos/MyCppProjects/TestWxWidgets/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -isystem /usr/local/lib/wx/include/gtk3-unicode-3.1 -isystem /usr/local/include/wx-3.1   -pthread -g   -std=gnu++17 -o CMakeFiles/testWxWidgets.dir/main.cpp.o -c /home/xabier/Git_repos/MyCppProjects/TestWxWidgets/main.cpp",
+  "file": "/home/xabier/Git_repos/MyCppProjects/TestWxWidgets/main.cpp"
+}
+]

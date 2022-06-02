@@ -1,37 +1,55 @@
 #include <iostream>
 #include <vector>
+#include <stdint.h>
 
-using namespace std;
+using std::vector;
+using std::cin;
+using std::cout;
+using std::endl;
 
-long long MaxPairwiseProduct(const vector<long long>&numbers, int n) {
-	int index1 = 0, index2 = 0, temp=0;
-	// one for loop to get the first and the second maximum values of the vector
-	for (int i=0; i < n; i++) {
-		if (numbers[i] >= numbers[index1]) {
-			index2 = index1;
-			index1 = i;
-			temp = i;
-		}
-		else if ((numbers[i] > numbers[index2]) && (numbers[i] < numbers[index1]) && (temp != i)) {
-			index2= i; 
-		}
-	}
+int64_t MaxPairwiseProduct(const vector<int64_t>& numbers) {
+  int64_t result = 0;
+  int n = numbers.size();
+  
+  if(n>=2){
+  int index1 = 0;
+  int index2 = 0;
 
-	return numbers[index1] * numbers[index2]; 
+  for (int i = 1; i < n; ++i) {
+	if(numbers[i]>numbers[index1]){
+    	index1 = i;
+    }
+  }
+  
+  if(index1==0){
+   index2=1;
+  }else{
+   index2=0;
+  }            
+       
+  for (int i = 0; i < n; ++i) {
+	if((i!=index1) && (numbers[i]>numbers[index2])){
+    	index2 = i;
+    }
+  }
+
+ result = numbers[index1] * numbers[index2];
+ }
+ else if(n==2){
+  return (numbers[0] * numbers[0]);
+ }
+  return result;
 }
 
-
-
-int main(int argc, char **argv) {
+int main() {
     int n;
     cin >> n;
-    vector<long long> numbers(n);
+    vector<int64_t> numbers(n);
     for (int i = 0; i < n; ++i) {
         cin >> numbers[i];
     }
 
-    long long result = MaxPairwiseProduct(numbers,n);
+    int64_t result = MaxPairwiseProduct(numbers);
     cout << result << "\n";
     return 0;
 }
-

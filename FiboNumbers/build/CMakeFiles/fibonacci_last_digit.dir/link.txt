@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/fibonacci_last_digit.dir/fibonacci_last_digit.cpp.o  -o fibonacci_last_digit 

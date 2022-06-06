@@ -1,4 +1,7 @@
 /home/xabier/Git_repos/MyCppProjects/FiboNumbers/build/CMakeFiles/edit_cache.dir
+/home/xabier/Git_repos/MyCppProjects/FiboNumbers/build/CMakeFiles/fibonacci_sum_last_digit.dir
+/home/xabier/Git_repos/MyCppProjects/FiboNumbers/build/CMakeFiles/fibonacci_partial_sum.dir
+/home/xabier/Git_repos/MyCppProjects/FiboNumbers/build/CMakeFiles/fibonacci_huge_number.dir
 /home/xabier/Git_repos/MyCppProjects/FiboNumbers/build/CMakeFiles/fibonacci_last_digit.dir
 /home/xabier/Git_repos/MyCppProjects/FiboNumbers/build/CMakeFiles/rebuild_cache.dir
 /home/xabier/Git_repos/MyCppProjects/FiboNumbers/build/CMakeFiles/fibonacci.dir

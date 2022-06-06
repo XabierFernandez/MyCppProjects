@@ -111,6 +111,45 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named fibonacci_sum_last_digit
+
+# Build rule for target.
+fibonacci_sum_last_digit: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 fibonacci_sum_last_digit
+.PHONY : fibonacci_sum_last_digit
+
+# fast build rule for target.
+fibonacci_sum_last_digit/fast:
+	$(MAKE) -f CMakeFiles/fibonacci_sum_last_digit.dir/build.make CMakeFiles/fibonacci_sum_last_digit.dir/build
+.PHONY : fibonacci_sum_last_digit/fast
+
+#=============================================================================
+# Target rules for targets named fibonacci_partial_sum
+
+# Build rule for target.
+fibonacci_partial_sum: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 fibonacci_partial_sum
+.PHONY : fibonacci_partial_sum
+
+# fast build rule for target.
+fibonacci_partial_sum/fast:
+	$(MAKE) -f CMakeFiles/fibonacci_partial_sum.dir/build.make CMakeFiles/fibonacci_partial_sum.dir/build
+.PHONY : fibonacci_partial_sum/fast
+
+#=============================================================================
+# Target rules for targets named fibonacci_huge_number
+
+# Build rule for target.
+fibonacci_huge_number: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 fibonacci_huge_number
+.PHONY : fibonacci_huge_number
+
+# fast build rule for target.
+fibonacci_huge_number/fast:
+	$(MAKE) -f CMakeFiles/fibonacci_huge_number.dir/build.make CMakeFiles/fibonacci_huge_number.dir/build
+.PHONY : fibonacci_huge_number/fast
+
+#=============================================================================
 # Target rules for targets named fibonacci_last_digit
 
 # Build rule for target.
@@ -163,6 +202,33 @@ fibonacci.cpp.s:
 	$(MAKE) -f CMakeFiles/fibonacci.dir/build.make CMakeFiles/fibonacci.dir/fibonacci.cpp.s
 .PHONY : fibonacci.cpp.s
 
+fibonacci_huge_number.o: fibonacci_huge_number.cpp.o
+
+.PHONY : fibonacci_huge_number.o
+
+# target to build an object file
+fibonacci_huge_number.cpp.o:
+	$(MAKE) -f CMakeFiles/fibonacci_huge_number.dir/build.make CMakeFiles/fibonacci_huge_number.dir/fibonacci_huge_number.cpp.o
+.PHONY : fibonacci_huge_number.cpp.o
+
+fibonacci_huge_number.i: fibonacci_huge_number.cpp.i
+
+.PHONY : fibonacci_huge_number.i
+
+# target to preprocess a source file
+fibonacci_huge_number.cpp.i:
+	$(MAKE) -f CMakeFiles/fibonacci_huge_number.dir/build.make CMakeFiles/fibonacci_huge_number.dir/fibonacci_huge_number.cpp.i
+.PHONY : fibonacci_huge_number.cpp.i
+
+fibonacci_huge_number.s: fibonacci_huge_number.cpp.s
+
+.PHONY : fibonacci_huge_number.s
+
+# target to generate assembly for a file
+fibonacci_huge_number.cpp.s:
+	$(MAKE) -f CMakeFiles/fibonacci_huge_number.dir/build.make CMakeFiles/fibonacci_huge_number.dir/fibonacci_huge_number.cpp.s
+.PHONY : fibonacci_huge_number.cpp.s
+
 fibonacci_last_digit.o: fibonacci_last_digit.cpp.o
 
 .PHONY : fibonacci_last_digit.o
@@ -190,6 +256,60 @@ fibonacci_last_digit.cpp.s:
 	$(MAKE) -f CMakeFiles/fibonacci_last_digit.dir/build.make CMakeFiles/fibonacci_last_digit.dir/fibonacci_last_digit.cpp.s
 .PHONY : fibonacci_last_digit.cpp.s
 
+fibonacci_partial_sum.o: fibonacci_partial_sum.cpp.o
+
+.PHONY : fibonacci_partial_sum.o
+
+# target to build an object file
+fibonacci_partial_sum.cpp.o:
+	$(MAKE) -f CMakeFiles/fibonacci_partial_sum.dir/build.make CMakeFiles/fibonacci_partial_sum.dir/fibonacci_partial_sum.cpp.o
+.PHONY : fibonacci_partial_sum.cpp.o
+
+fibonacci_partial_sum.i: fibonacci_partial_sum.cpp.i
+
+.PHONY : fibonacci_partial_sum.i
+
+# target to preprocess a source file
+fibonacci_partial_sum.cpp.i:
+	$(MAKE) -f CMakeFiles/fibonacci_partial_sum.dir/build.make CMakeFiles/fibonacci_partial_sum.dir/fibonacci_partial_sum.cpp.i
+.PHONY : fibonacci_partial_sum.cpp.i
+
+fibonacci_partial_sum.s: fibonacci_partial_sum.cpp.s
+
+.PHONY : fibonacci_partial_sum.s
+
+# target to generate assembly for a file
+fibonacci_partial_sum.cpp.s:
+	$(MAKE) -f CMakeFiles/fibonacci_partial_sum.dir/build.make CMakeFiles/fibonacci_partial_sum.dir/fibonacci_partial_sum.cpp.s
+.PHONY : fibonacci_partial_sum.cpp.s
+
+fibonacci_sum_last_digit.o: fibonacci_sum_last_digit.cpp.o
+
+.PHONY : fibonacci_sum_last_digit.o
+
+# target to build an object file
+fibonacci_sum_last_digit.cpp.o:
+	$(MAKE) -f CMakeFiles/fibonacci_sum_last_digit.dir/build.make CMakeFiles/fibonacci_sum_last_digit.dir/fibonacci_sum_last_digit.cpp.o
+.PHONY : fibonacci_sum_last_digit.cpp.o
+
+fibonacci_sum_last_digit.i: fibonacci_sum_last_digit.cpp.i
+
+.PHONY : fibonacci_sum_last_digit.i
+
+# target to preprocess a source file
+fibonacci_sum_last_digit.cpp.i:
+	$(MAKE) -f CMakeFiles/fibonacci_sum_last_digit.dir/build.make CMakeFiles/fibonacci_sum_last_digit.dir/fibonacci_sum_last_digit.cpp.i
+.PHONY : fibonacci_sum_last_digit.cpp.i
+
+fibonacci_sum_last_digit.s: fibonacci_sum_last_digit.cpp.s
+
+.PHONY : fibonacci_sum_last_digit.s
+
+# target to generate assembly for a file
+fibonacci_sum_last_digit.cpp.s:
+	$(MAKE) -f CMakeFiles/fibonacci_sum_last_digit.dir/build.make CMakeFiles/fibonacci_sum_last_digit.dir/fibonacci_sum_last_digit.cpp.s
+.PHONY : fibonacci_sum_last_digit.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -197,15 +317,27 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... fibonacci_sum_last_digit"
+	@echo "... fibonacci_partial_sum"
+	@echo "... fibonacci_huge_number"
 	@echo "... fibonacci_last_digit"
 	@echo "... rebuild_cache"
 	@echo "... fibonacci"
 	@echo "... fibonacci.o"
 	@echo "... fibonacci.i"
 	@echo "... fibonacci.s"
+	@echo "... fibonacci_huge_number.o"
+	@echo "... fibonacci_huge_number.i"
+	@echo "... fibonacci_huge_number.s"
 	@echo "... fibonacci_last_digit.o"
 	@echo "... fibonacci_last_digit.i"
 	@echo "... fibonacci_last_digit.s"
+	@echo "... fibonacci_partial_sum.o"
+	@echo "... fibonacci_partial_sum.i"
+	@echo "... fibonacci_partial_sum.s"
+	@echo "... fibonacci_sum_last_digit.o"
+	@echo "... fibonacci_sum_last_digit.i"
+	@echo "... fibonacci_sum_last_digit.s"
 .PHONY : help
 
 

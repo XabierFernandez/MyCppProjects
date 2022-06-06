@@ -23,18 +23,18 @@ int fibonacci_naive(int n) {
 
 int fibonacci_fast(int n) {
     // write your code here
-    int f1=1,f2=0;
+    int f1=0,f2=1;
     if (n < 2)
         return n;  
  
     for (int i = 0;i < (n-1);i++)
     {
-        f1 = f1 + f2;
-        f2 = f1 - f2;
-        //std::cout <<"F1=" << f1 << " - i=" << i << std::endl;
+        int tmp_f1 = f1;
+        f1 = f2;
+        f2 = tmp_f1 + f2;
     }
  
-  return f1;
+  return f2;
 }
 
 void test_solution() {

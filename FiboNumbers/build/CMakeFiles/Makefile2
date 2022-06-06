@@ -53,6 +53,9 @@ CMAKE_BINARY_DIR = /home/xabier/Git_repos/MyCppProjects/FiboNumbers/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/fibonacci_sum_last_digit.dir/all
+all: CMakeFiles/fibonacci_partial_sum.dir/all
+all: CMakeFiles/fibonacci_huge_number.dir/all
 all: CMakeFiles/fibonacci_last_digit.dir/all
 all: CMakeFiles/fibonacci.dir/all
 
@@ -64,10 +67,94 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/fibonacci_sum_last_digit.dir/clean
+clean: CMakeFiles/fibonacci_partial_sum.dir/clean
+clean: CMakeFiles/fibonacci_huge_number.dir/clean
 clean: CMakeFiles/fibonacci_last_digit.dir/clean
 clean: CMakeFiles/fibonacci.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/fibonacci_sum_last_digit.dir
+
+# All Build rule for target.
+CMakeFiles/fibonacci_sum_last_digit.dir/all:
+	$(MAKE) -f CMakeFiles/fibonacci_sum_last_digit.dir/build.make CMakeFiles/fibonacci_sum_last_digit.dir/depend
+	$(MAKE) -f CMakeFiles/fibonacci_sum_last_digit.dir/build.make CMakeFiles/fibonacci_sum_last_digit.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xabier/Git_repos/MyCppProjects/FiboNumbers/build/CMakeFiles --progress-num=9,10 "Built target fibonacci_sum_last_digit"
+.PHONY : CMakeFiles/fibonacci_sum_last_digit.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/fibonacci_sum_last_digit.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xabier/Git_repos/MyCppProjects/FiboNumbers/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/fibonacci_sum_last_digit.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xabier/Git_repos/MyCppProjects/FiboNumbers/build/CMakeFiles 0
+.PHONY : CMakeFiles/fibonacci_sum_last_digit.dir/rule
+
+# Convenience name for target.
+fibonacci_sum_last_digit: CMakeFiles/fibonacci_sum_last_digit.dir/rule
+
+.PHONY : fibonacci_sum_last_digit
+
+# clean rule for target.
+CMakeFiles/fibonacci_sum_last_digit.dir/clean:
+	$(MAKE) -f CMakeFiles/fibonacci_sum_last_digit.dir/build.make CMakeFiles/fibonacci_sum_last_digit.dir/clean
+.PHONY : CMakeFiles/fibonacci_sum_last_digit.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/fibonacci_partial_sum.dir
+
+# All Build rule for target.
+CMakeFiles/fibonacci_partial_sum.dir/all:
+	$(MAKE) -f CMakeFiles/fibonacci_partial_sum.dir/build.make CMakeFiles/fibonacci_partial_sum.dir/depend
+	$(MAKE) -f CMakeFiles/fibonacci_partial_sum.dir/build.make CMakeFiles/fibonacci_partial_sum.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xabier/Git_repos/MyCppProjects/FiboNumbers/build/CMakeFiles --progress-num=7,8 "Built target fibonacci_partial_sum"
+.PHONY : CMakeFiles/fibonacci_partial_sum.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/fibonacci_partial_sum.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xabier/Git_repos/MyCppProjects/FiboNumbers/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/fibonacci_partial_sum.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xabier/Git_repos/MyCppProjects/FiboNumbers/build/CMakeFiles 0
+.PHONY : CMakeFiles/fibonacci_partial_sum.dir/rule
+
+# Convenience name for target.
+fibonacci_partial_sum: CMakeFiles/fibonacci_partial_sum.dir/rule
+
+.PHONY : fibonacci_partial_sum
+
+# clean rule for target.
+CMakeFiles/fibonacci_partial_sum.dir/clean:
+	$(MAKE) -f CMakeFiles/fibonacci_partial_sum.dir/build.make CMakeFiles/fibonacci_partial_sum.dir/clean
+.PHONY : CMakeFiles/fibonacci_partial_sum.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/fibonacci_huge_number.dir
+
+# All Build rule for target.
+CMakeFiles/fibonacci_huge_number.dir/all:
+	$(MAKE) -f CMakeFiles/fibonacci_huge_number.dir/build.make CMakeFiles/fibonacci_huge_number.dir/depend
+	$(MAKE) -f CMakeFiles/fibonacci_huge_number.dir/build.make CMakeFiles/fibonacci_huge_number.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xabier/Git_repos/MyCppProjects/FiboNumbers/build/CMakeFiles --progress-num=3,4 "Built target fibonacci_huge_number"
+.PHONY : CMakeFiles/fibonacci_huge_number.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/fibonacci_huge_number.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xabier/Git_repos/MyCppProjects/FiboNumbers/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/fibonacci_huge_number.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xabier/Git_repos/MyCppProjects/FiboNumbers/build/CMakeFiles 0
+.PHONY : CMakeFiles/fibonacci_huge_number.dir/rule
+
+# Convenience name for target.
+fibonacci_huge_number: CMakeFiles/fibonacci_huge_number.dir/rule
+
+.PHONY : fibonacci_huge_number
+
+# clean rule for target.
+CMakeFiles/fibonacci_huge_number.dir/clean:
+	$(MAKE) -f CMakeFiles/fibonacci_huge_number.dir/build.make CMakeFiles/fibonacci_huge_number.dir/clean
+.PHONY : CMakeFiles/fibonacci_huge_number.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/fibonacci_last_digit.dir
@@ -76,7 +163,7 @@ clean: CMakeFiles/fibonacci.dir/clean
 CMakeFiles/fibonacci_last_digit.dir/all:
 	$(MAKE) -f CMakeFiles/fibonacci_last_digit.dir/build.make CMakeFiles/fibonacci_last_digit.dir/depend
 	$(MAKE) -f CMakeFiles/fibonacci_last_digit.dir/build.make CMakeFiles/fibonacci_last_digit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xabier/Git_repos/MyCppProjects/FiboNumbers/build/CMakeFiles --progress-num=3,4 "Built target fibonacci_last_digit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xabier/Git_repos/MyCppProjects/FiboNumbers/build/CMakeFiles --progress-num=5,6 "Built target fibonacci_last_digit"
 .PHONY : CMakeFiles/fibonacci_last_digit.dir/all
 
 # Build rule for subdir invocation for target.

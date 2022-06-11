@@ -1,54 +1,37 @@
 #include <iostream>
-#include <vector>
-using std::vector;
 
-long long pisanoPeriod(long long m){
-    long long a=0, b=1 , c=0;
-    for (long long i = 0; i < m * m; ++i) {
-        c = (a+b)%m;
-        a = b;
-        b = c;
-        if (a == 0 && b == 1)return i + 1;
+
+long long fibonacci_fast(int n) {
+    // write your code here
+    long long f1=0,f2=1;
+    if (n < 2)
+        return n;  
+ 
+    for (int i = 0;i < n-1;i++)
+    {
+        long long tmp_f1 = f1;
+        f1 = f2;
+        f2 = tmp_f1 + f2;
     }
-    return -1;
-}
-
-long long get_fibonacci_partial_sum_naive(long long from, long long to) {
-    long long sum = 0;
-
-    long long current = 0;
-    long long next  = 1;
-
-    for (long long i = 0; i <= to; ++i) {
-        if (i >= from) {
-            sum += current;
-        }
-
-        long long new_current = next;
-        next = next + current;
-        current = new_current;
-    }
-
-    return sum % 10;
+ 
+  return f2;
 }
 
 long long get_fibonacci_partial_sum_fast(long long from, long long to) {
-    long long rem = to % pisanoPeriod(10);
-    long long previous = 0;
-    long long current = 1;
-    long long tmp_previous;
+    to = to % 60;
+    from = from % 60;
     long long sum = 0;
+    long long fib60[60];
 
-    if(from <2){
-        sum = 1;
-        from = 2; 
-    }
-    
-    for (int i = from; i < rem; i++) {
-        tmp_previous = (previous + current) % 10;
-        sum = sum + tmp_previous;
-        previous = current;
-        current = tmp_previous;
+    for(int i=0;i<60;i++) {
+        fib60[i] = fibonacci_fast(i);
+        std::cout << i << "=" << fib60[i] << "\n";
+    } 
+
+    if(to < from) to = to + 60;
+
+    for (int j = from; j < to + 1; j++) {
+        sum = sum + fib60[j];
     }
 
     return sum % 10;
@@ -57,5 +40,5 @@ long long get_fibonacci_partial_sum_fast(long long from, long long to) {
 int main() {
     long long from, to;
     std::cin >> from >> to;
-    std::cout << get_fibonacci_partial_sum_naive(from, to) << '\n';
+    std::cout << get_fibonacci_partial_sum_fast(from, to) << '\n';
 }

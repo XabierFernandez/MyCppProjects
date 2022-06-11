@@ -1,0 +1,4 @@
+/home/xabier/Git_repos/MyCppProjects/build-Thermostat-Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/xabier/Git_repos/MyCppProjects/build-Thermostat-Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/xabier/Git_repos/MyCppProjects/build-Thermostat-Desktop-Debug/CMakeFiles/Thermostat.dir
+/home/xabier/Git_repos/MyCppProjects/build-Thermostat-Desktop-Debug/CMakeFiles/Thermostat_autogen.dir

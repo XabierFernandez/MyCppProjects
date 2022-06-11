@@ -1,0 +1,5 @@
+/home/xabier/Git_repos/MyCppProjects/build-Thermostat-Desktop-Debug/config.tests/static_link_order/CMakeFiles/rebuild_cache.dir
+/home/xabier/Git_repos/MyCppProjects/build-Thermostat-Desktop-Debug/config.tests/static_link_order/CMakeFiles/edit_cache.dir
+/home/xabier/Git_repos/MyCppProjects/build-Thermostat-Desktop-Debug/config.tests/static_link_order/CMakeFiles/static_link_order_test.dir
+/home/xabier/Git_repos/MyCppProjects/build-Thermostat-Desktop-Debug/config.tests/static_link_order/CMakeFiles/staticLib.dir
+/home/xabier/Git_repos/MyCppProjects/build-Thermostat-Desktop-Debug/config.tests/static_link_order/CMakeFiles/objLib.dir

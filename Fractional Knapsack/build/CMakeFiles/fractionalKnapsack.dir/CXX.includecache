@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/xabier/Git_repos/MyCppProjects/Fractional Knapsack/fractionalKnapsack.cpp
+iostream
+-
+vector
+-
+

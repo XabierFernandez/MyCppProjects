@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic CMakeFiles/points_and_segments.dir/points_and_segments.cpp.o -o points_and_segments 

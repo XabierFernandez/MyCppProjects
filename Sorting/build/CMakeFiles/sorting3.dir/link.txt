@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic CMakeFiles/sorting3.dir/sorting3.cpp.o -o sorting3 

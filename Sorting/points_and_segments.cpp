@@ -1,11 +1,43 @@
 #include <iostream>
 #include <vector>
+#include <algorithm>
 
-using std::vector;
+using namespace std;
+
+struct segment {
+    int start, end;
+};
 
 vector<int> fast_count_segments(vector<int> starts, vector<int> ends, vector<int> points) {
   vector<int> cnt(points.size());
+  vector<segment> Segments(starts.size());
   //write your code here
+  /* for (size_t i = 0; i < starts.size(); i++) {
+    Segments[i].start = starts[i];
+    Segments[i].end = ends[i];
+  } */
+
+
+  sort(starts.begin(),starts.end());  
+  sort(ends.begin(),ends.end());  
+
+  for (size_t i = 0; i < points.size(); i++) {
+    size_t j, k;
+      for ( j = 0; j < starts.size(); j++) {
+        if(starts[j] > points[i]){
+          break;
+        }
+      } 
+
+      for ( k = 0; k < starts.size(); k++) {
+        if(ends[k] >= points[i]){
+          break;
+        }
+      } 
+      cnt[i] = j - k;      
+
+  }
+
   return cnt;
 }
 
@@ -31,7 +63,7 @@ int main() {
     std::cin >> points[i];
   }
   //use fast_count_segments
-  vector<int> cnt = naive_count_segments(starts, ends, points);
+  vector<int> cnt = fast_count_segments(starts, ends, points);
   for (size_t i = 0; i < cnt.size(); i++) {
     std::cout << cnt[i] << ' ';
   }

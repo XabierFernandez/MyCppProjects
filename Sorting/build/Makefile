@@ -181,6 +181,80 @@ points_and_segments/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/points_and_segments.dir/build.make CMakeFiles/points_and_segments.dir/build
 .PHONY : points_and_segments/fast
 
+#=============================================================================
+# Target rules for targets named closestPairOfPoints
+
+# Build rule for target.
+closestPairOfPoints: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 closestPairOfPoints
+.PHONY : closestPairOfPoints
+
+# fast build rule for target.
+closestPairOfPoints/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/closestPairOfPoints.dir/build.make CMakeFiles/closestPairOfPoints.dir/build
+.PHONY : closestPairOfPoints/fast
+
+#=============================================================================
+# Target rules for targets named closestPairOfPoints_2
+
+# Build rule for target.
+closestPairOfPoints_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 closestPairOfPoints_2
+.PHONY : closestPairOfPoints_2
+
+# fast build rule for target.
+closestPairOfPoints_2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/closestPairOfPoints_2.dir/build.make CMakeFiles/closestPairOfPoints_2.dir/build
+.PHONY : closestPairOfPoints_2/fast
+
+closestPairOfPoints.o: closestPairOfPoints.cpp.o
+.PHONY : closestPairOfPoints.o
+
+# target to build an object file
+closestPairOfPoints.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/closestPairOfPoints.dir/build.make CMakeFiles/closestPairOfPoints.dir/closestPairOfPoints.cpp.o
+.PHONY : closestPairOfPoints.cpp.o
+
+closestPairOfPoints.i: closestPairOfPoints.cpp.i
+.PHONY : closestPairOfPoints.i
+
+# target to preprocess a source file
+closestPairOfPoints.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/closestPairOfPoints.dir/build.make CMakeFiles/closestPairOfPoints.dir/closestPairOfPoints.cpp.i
+.PHONY : closestPairOfPoints.cpp.i
+
+closestPairOfPoints.s: closestPairOfPoints.cpp.s
+.PHONY : closestPairOfPoints.s
+
+# target to generate assembly for a file
+closestPairOfPoints.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/closestPairOfPoints.dir/build.make CMakeFiles/closestPairOfPoints.dir/closestPairOfPoints.cpp.s
+.PHONY : closestPairOfPoints.cpp.s
+
+closestPairOfPoints_2.o: closestPairOfPoints_2.cpp.o
+.PHONY : closestPairOfPoints_2.o
+
+# target to build an object file
+closestPairOfPoints_2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/closestPairOfPoints_2.dir/build.make CMakeFiles/closestPairOfPoints_2.dir/closestPairOfPoints_2.cpp.o
+.PHONY : closestPairOfPoints_2.cpp.o
+
+closestPairOfPoints_2.i: closestPairOfPoints_2.cpp.i
+.PHONY : closestPairOfPoints_2.i
+
+# target to preprocess a source file
+closestPairOfPoints_2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/closestPairOfPoints_2.dir/build.make CMakeFiles/closestPairOfPoints_2.dir/closestPairOfPoints_2.cpp.i
+.PHONY : closestPairOfPoints_2.cpp.i
+
+closestPairOfPoints_2.s: closestPairOfPoints_2.cpp.s
+.PHONY : closestPairOfPoints_2.s
+
+# target to generate assembly for a file
+closestPairOfPoints_2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/closestPairOfPoints_2.dir/build.make CMakeFiles/closestPairOfPoints_2.dir/closestPairOfPoints_2.cpp.s
+.PHONY : closestPairOfPoints_2.cpp.s
+
 inversions.o: inversions.cpp.o
 .PHONY : inversions.o
 
@@ -309,11 +383,19 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... closestPairOfPoints"
+	@echo "... closestPairOfPoints_2"
 	@echo "... inversions"
 	@echo "... points_and_segments"
 	@echo "... quicksort"
 	@echo "... sorting"
 	@echo "... sorting3"
+	@echo "... closestPairOfPoints.o"
+	@echo "... closestPairOfPoints.i"
+	@echo "... closestPairOfPoints.s"
+	@echo "... closestPairOfPoints_2.o"
+	@echo "... closestPairOfPoints_2.i"
+	@echo "... closestPairOfPoints_2.s"
 	@echo "... inversions.o"
 	@echo "... inversions.i"
 	@echo "... inversions.s"

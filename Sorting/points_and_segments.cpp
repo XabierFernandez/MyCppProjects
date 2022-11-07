@@ -4,19 +4,10 @@
 
 using namespace std;
 
-struct segment {
-    int start, end;
-};
+
 
 vector<int> fast_count_segments(vector<int> starts, vector<int> ends, vector<int> points) {
   vector<int> cnt(points.size());
-  vector<segment> Segments(starts.size());
-  //write your code here
-  /* for (size_t i = 0; i < starts.size(); i++) {
-    Segments[i].start = starts[i];
-    Segments[i].end = ends[i];
-  } */
-
 
   sort(starts.begin(),starts.end());  
   sort(ends.begin(),ends.end());  

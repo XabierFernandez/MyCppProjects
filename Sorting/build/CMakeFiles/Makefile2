@@ -68,6 +68,8 @@ all: CMakeFiles/sorting3.dir/all
 all: CMakeFiles/inversions.dir/all
 all: CMakeFiles/quicksort.dir/all
 all: CMakeFiles/points_and_segments.dir/all
+all: CMakeFiles/closestPairOfPoints.dir/all
+all: CMakeFiles/closestPairOfPoints_2.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -80,6 +82,8 @@ clean: CMakeFiles/sorting3.dir/clean
 clean: CMakeFiles/inversions.dir/clean
 clean: CMakeFiles/quicksort.dir/clean
 clean: CMakeFiles/points_and_segments.dir/clean
+clean: CMakeFiles/closestPairOfPoints.dir/clean
+clean: CMakeFiles/closestPairOfPoints_2.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -89,7 +93,7 @@ clean: CMakeFiles/points_and_segments.dir/clean
 CMakeFiles/sorting.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sorting.dir/build.make CMakeFiles/sorting.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sorting.dir/build.make CMakeFiles/sorting.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xabier/Git_repos/MyCppProjects/Sorting/build/CMakeFiles --progress-num=7,8 "Built target sorting"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xabier/Git_repos/MyCppProjects/Sorting/build/CMakeFiles --progress-num=11,12 "Built target sorting"
 .PHONY : CMakeFiles/sorting.dir/all
 
 # Build rule for subdir invocation for target.
@@ -115,7 +119,7 @@ CMakeFiles/sorting.dir/clean:
 CMakeFiles/sorting3.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sorting3.dir/build.make CMakeFiles/sorting3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sorting3.dir/build.make CMakeFiles/sorting3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xabier/Git_repos/MyCppProjects/Sorting/build/CMakeFiles --progress-num=9,10 "Built target sorting3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xabier/Git_repos/MyCppProjects/Sorting/build/CMakeFiles --progress-num=13,14 "Built target sorting3"
 .PHONY : CMakeFiles/sorting3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -141,7 +145,7 @@ CMakeFiles/sorting3.dir/clean:
 CMakeFiles/inversions.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/inversions.dir/build.make CMakeFiles/inversions.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/inversions.dir/build.make CMakeFiles/inversions.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xabier/Git_repos/MyCppProjects/Sorting/build/CMakeFiles --progress-num=1,2 "Built target inversions"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xabier/Git_repos/MyCppProjects/Sorting/build/CMakeFiles --progress-num=5,6 "Built target inversions"
 .PHONY : CMakeFiles/inversions.dir/all
 
 # Build rule for subdir invocation for target.
@@ -167,7 +171,7 @@ CMakeFiles/inversions.dir/clean:
 CMakeFiles/quicksort.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/quicksort.dir/build.make CMakeFiles/quicksort.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/quicksort.dir/build.make CMakeFiles/quicksort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xabier/Git_repos/MyCppProjects/Sorting/build/CMakeFiles --progress-num=5,6 "Built target quicksort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xabier/Git_repos/MyCppProjects/Sorting/build/CMakeFiles --progress-num=9,10 "Built target quicksort"
 .PHONY : CMakeFiles/quicksort.dir/all
 
 # Build rule for subdir invocation for target.
@@ -193,7 +197,7 @@ CMakeFiles/quicksort.dir/clean:
 CMakeFiles/points_and_segments.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/points_and_segments.dir/build.make CMakeFiles/points_and_segments.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/points_and_segments.dir/build.make CMakeFiles/points_and_segments.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xabier/Git_repos/MyCppProjects/Sorting/build/CMakeFiles --progress-num=3,4 "Built target points_and_segments"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xabier/Git_repos/MyCppProjects/Sorting/build/CMakeFiles --progress-num=7,8 "Built target points_and_segments"
 .PHONY : CMakeFiles/points_and_segments.dir/all
 
 # Build rule for subdir invocation for target.
@@ -211,6 +215,58 @@ points_and_segments: CMakeFiles/points_and_segments.dir/rule
 CMakeFiles/points_and_segments.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/points_and_segments.dir/build.make CMakeFiles/points_and_segments.dir/clean
 .PHONY : CMakeFiles/points_and_segments.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/closestPairOfPoints.dir
+
+# All Build rule for target.
+CMakeFiles/closestPairOfPoints.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/closestPairOfPoints.dir/build.make CMakeFiles/closestPairOfPoints.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/closestPairOfPoints.dir/build.make CMakeFiles/closestPairOfPoints.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xabier/Git_repos/MyCppProjects/Sorting/build/CMakeFiles --progress-num=1,2 "Built target closestPairOfPoints"
+.PHONY : CMakeFiles/closestPairOfPoints.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/closestPairOfPoints.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xabier/Git_repos/MyCppProjects/Sorting/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/closestPairOfPoints.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xabier/Git_repos/MyCppProjects/Sorting/build/CMakeFiles 0
+.PHONY : CMakeFiles/closestPairOfPoints.dir/rule
+
+# Convenience name for target.
+closestPairOfPoints: CMakeFiles/closestPairOfPoints.dir/rule
+.PHONY : closestPairOfPoints
+
+# clean rule for target.
+CMakeFiles/closestPairOfPoints.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/closestPairOfPoints.dir/build.make CMakeFiles/closestPairOfPoints.dir/clean
+.PHONY : CMakeFiles/closestPairOfPoints.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/closestPairOfPoints_2.dir
+
+# All Build rule for target.
+CMakeFiles/closestPairOfPoints_2.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/closestPairOfPoints_2.dir/build.make CMakeFiles/closestPairOfPoints_2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/closestPairOfPoints_2.dir/build.make CMakeFiles/closestPairOfPoints_2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xabier/Git_repos/MyCppProjects/Sorting/build/CMakeFiles --progress-num=3,4 "Built target closestPairOfPoints_2"
+.PHONY : CMakeFiles/closestPairOfPoints_2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/closestPairOfPoints_2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xabier/Git_repos/MyCppProjects/Sorting/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/closestPairOfPoints_2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xabier/Git_repos/MyCppProjects/Sorting/build/CMakeFiles 0
+.PHONY : CMakeFiles/closestPairOfPoints_2.dir/rule
+
+# Convenience name for target.
+closestPairOfPoints_2: CMakeFiles/closestPairOfPoints_2.dir/rule
+.PHONY : closestPairOfPoints_2
+
+# clean rule for target.
+CMakeFiles/closestPairOfPoints_2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/closestPairOfPoints_2.dir/build.make CMakeFiles/closestPairOfPoints_2.dir/clean
+.PHONY : CMakeFiles/closestPairOfPoints_2.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

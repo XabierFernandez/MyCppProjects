@@ -1,0 +1,3 @@
+/home/xabier/Git_repos/MyCppProjects/Primitive_Calculator/build/CMakeFiles/primitive_calculator.dir
+/home/xabier/Git_repos/MyCppProjects/Primitive_Calculator/build/CMakeFiles/edit_cache.dir
+/home/xabier/Git_repos/MyCppProjects/Primitive_Calculator/build/CMakeFiles/rebuild_cache.dir

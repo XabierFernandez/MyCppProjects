@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/primitive_calculator.dir/primitive_calculator.cpp.o -o primitive_calculator 

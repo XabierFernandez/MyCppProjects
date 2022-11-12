@@ -129,6 +129,19 @@ change_dp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/change_dp.dir/build.make CMakeFiles/change_dp.dir/build
 .PHONY : change_dp/fast
 
+#=============================================================================
+# Target rules for targets named primitive_calculator
+
+# Build rule for target.
+primitive_calculator: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 primitive_calculator
+.PHONY : primitive_calculator
+
+# fast build rule for target.
+primitive_calculator/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/primitive_calculator.dir/build.make CMakeFiles/primitive_calculator.dir/build
+.PHONY : primitive_calculator/fast
+
 change_dp.o: change_dp.cpp.o
 .PHONY : change_dp.o
 
@@ -153,6 +166,30 @@ change_dp.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/change_dp.dir/build.make CMakeFiles/change_dp.dir/change_dp.cpp.s
 .PHONY : change_dp.cpp.s
 
+primitive_calculator.o: primitive_calculator.cpp.o
+.PHONY : primitive_calculator.o
+
+# target to build an object file
+primitive_calculator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/primitive_calculator.dir/build.make CMakeFiles/primitive_calculator.dir/primitive_calculator.cpp.o
+.PHONY : primitive_calculator.cpp.o
+
+primitive_calculator.i: primitive_calculator.cpp.i
+.PHONY : primitive_calculator.i
+
+# target to preprocess a source file
+primitive_calculator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/primitive_calculator.dir/build.make CMakeFiles/primitive_calculator.dir/primitive_calculator.cpp.i
+.PHONY : primitive_calculator.cpp.i
+
+primitive_calculator.s: primitive_calculator.cpp.s
+.PHONY : primitive_calculator.s
+
+# target to generate assembly for a file
+primitive_calculator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/primitive_calculator.dir/build.make CMakeFiles/primitive_calculator.dir/primitive_calculator.cpp.s
+.PHONY : primitive_calculator.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,9 +199,13 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... change_dp"
+	@echo "... primitive_calculator"
 	@echo "... change_dp.o"
 	@echo "... change_dp.i"
 	@echo "... change_dp.s"
+	@echo "... primitive_calculator.o"
+	@echo "... primitive_calculator.i"
+	@echo "... primitive_calculator.s"
 .PHONY : help
 
 

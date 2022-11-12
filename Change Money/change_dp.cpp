@@ -29,4 +29,3 @@ int main() {
   std::cin >> m;
   std::cout << get_change(m) << '\n';
 }
-

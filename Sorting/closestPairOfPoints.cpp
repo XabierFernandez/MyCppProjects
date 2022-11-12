@@ -1,11 +1,15 @@
-#include <algorithm>
+// A divide and conquer program in C++ to find the smallest distance from a
+// given set of points.
+
 #include <iostream>
+#include <float.h>
+#include <stdlib.h>
+#include <math.h>
 #include <sstream>
-#include <iomanip>
-#include <vector>
 #include <string>
 #include <cmath>
-#include <float.h>
+#include <iomanip>
+#include <vector>
 
 using namespace std;
 using std::vector;
@@ -13,148 +17,158 @@ using std::string;
 using std::pair;
 using std::min;
 
-
-
-//############################################################################
-template<typename T>
-vector<T> s(vector<T> const &v, int m, int n) {
-   auto first = v.begin() + m;
-   auto last = v.begin() + n + 1;
-   vector<T> vector(first, last);
-   return vector;
-}
-//############################################################################
-template<typename T>
-void show(vector<T> const &v) {
-   for (auto i: v) {
-      cout << i << endl;
-   }
-   cout << endl;
-}
-
-//############################################################################
-bool sortByFirst(const pair<int,int> &a, const pair<int,int> &b)
+// A structure to represent a Point in 2D plane
+struct Point
 {
-  return (a.first < b.first);
-}
-//############################################################################
-bool sortBySecond(const pair<int,int> &a, const pair<int,int> &b)
+	int x, y;
+};
+
+
+/* Following two functions are needed for library function qsort().
+Refer: http://www.cplusplus.com/reference/clibrary/cstdlib/qsort/ */
+
+// Needed to sort array of points according to X coordinate
+int compareX(const void* a, const void* b)
 {
-  return (a.second < b.second);
+	Point *p1 = (Point *)a, *p2 = (Point *)b;
+	return (p1->x != p2->x) ? (p1->x - p2->x) : (p1->y - p2->y);
 }
-//############################################################################
-double dist(pair<int,int> point1, pair<int,int> point2)
+// Needed to sort array of points according to Y coordinate
+int compareY(const void* a, const void* b)
 {
-  return sqrt( (point1.first - point2.first)*(point1.first  - point2.first) +
-                (point1.second - point2.second)*(point1.second - point2.second));
+	Point *p1 = (Point *)a, *p2 = (Point *)b;
+	return (p1->y != p2->y) ? (p1->y - p2->y) : (p1->x - p2->x);
 }
-//#############################################################################
-double min(double x, double y) 
-{ 
-  return (x < y)? x : y; 
-} 
-//#############################################################################
-double naive_find_minimal_distance(vector<pair<int,int>> points, int n) 
-{ 
-  double min = DBL_MAX; 
-  for (int i = 0; i < n; ++i){
-    for (int j = i+1; j < n; ++j){
-      if (dist(points[i], points[j]) < min){
-        min = dist(points[i], points[j]); 
-      }  
-    }  
-  }          
-      
-  return min; 
-} 
-//###############################################################################
-double stripClosest(vector<pair<int,int>> strip, int n, double d) 
-{ 
-  double min = d;  
-  for (int i = 0; i < n; ++i) 
-    for (int j = i+1; j < n && (strip[j].first - strip[i].second) < min; ++j) 
-      if (dist(strip[i],strip[j]) < min) 
-        min = dist(strip[i], strip[j]);   
-  
-  return min; 
-} 
-//##############################################################################
-double find_minimal_distance(vector<pair<int,int>> points_x, vector<pair<int,int>> points_y, int n){ 
-  //================================================================
-  if (n <= 3) return naive_find_minimal_distance(points_x, n); 
-  //================================================================
-  int mid = n/2; 
-  pair<int,int> midPoint = points_x[mid]; 
-  vector<pair<int,int>> Pyl(mid+1);   
-  vector<pair<int,int>> Pyr(n-mid-1);  
-  int li = 0, ri = 0;   
-  for (int i = 0; i < n; i++) 
-  { 
-    if (points_y[i].first <= midPoint.first) 
-        Pyl[li++] = points_y[i]; 
-    else
-        Pyr[ri++] = points_y[i]; 
-  } 
-  //=================================================================
-  double dl = find_minimal_distance(points_x, Pyl, mid);
-  //vector<pair<int,int>> points_x_temp((points_x.begin() + mid) , (points_x.begin() + n + 1));
-  vector<pair<int,int>> points_x_temp = s(points_x, mid, n+1);
-  double dr = find_minimal_distance(points_x_temp, Pyr, n-mid); 
-  double d = min(dl, dr);
-  //=================================================================
-  vector<pair<int,int>> strip(n);
-  int j = 0; 
-  for (int i = 0; i < n; i++) 
-    if (abs(points_y[i].first - midPoint.first) < d){
-      strip[j] = points_y[i], j++; 
-    }       
-  
-  return  min(d, stripClosest(strip, j, d)); ;
+
+// A utility function to find the distance between two points
+float dist(Point p1, Point p2)
+{
+	return sqrt( (p1.x - p2.x)*(p1.x - p2.x) +
+				(p1.y - p2.y)*(p1.y - p2.y)
+			);
 }
-//##############################################################################
-double minimal_distance(vector<int> x, vector<int> y, int n ){
-  //write your code here
-  vector<pair<int,int>> points(n);
-  //============================================================================
-  for(int i = 0; i < n; i++){
-   points[i].first = x[i];
-   points[i].second = y[i];
-  }
-  /* for(int i = 0; i < n; i++){
-    cout << "points[" << i << "]:" << points[i].first << "," << points[i].second << endl;
-  } */
-  //===============================================================================
-  vector<pair<int,int>> points_sort_x(points);
-  vector<pair<int,int>> points_sort_y(points);
-  //===============================================================================
-  sort(points_sort_x.begin(),points_sort_x.end(), sortByFirst);
-  sort(points_sort_y.begin(),points_sort_y.end(), sortBySecond);
-  //===============================================================================
 
-  /* for(int i = 0; i < n; i++){
-    cout << "points[" << i << "]:" << points[i].first << "," << points[i].second << endl;
-    cout << "points_x[" << i << "]:" << points_sort_x[i].first << ","  << points_sort_x[i].second << endl;
-    cout << "points_y[" << i << "]:" << points_sort_y[i].first << ","  << points_sort_y[i].second << endl;
-  } */
-
-  return find_minimal_distance(points_sort_x, points_sort_y, n);
-
+// A Brute Force method to return the smallest distance between two points
+// in P[] of size n
+float bruteForce(Point P[], int n)
+{
+	float min = FLT_MAX;
+	for (int i = 0; i < n; ++i)
+		for (int j = i+1; j < n; ++j)
+			if (dist(P[i], P[j]) < min)
+				min = dist(P[i], P[j]);
+	return min;
 }
-//=================================================================================
-int main() {
+
+// A utility function to find a minimum of two float values
+float min(float x, float y)
+{
+	return (x < y)? x : y;
+}
+
+
+// A utility function to find the distance between the closest points of
+// strip of a given size. All points in strip[] are sorted according to
+// y coordinate. They all have an upper bound on minimum distance as d.
+// Note that this method seems to be a O(n^2) method, but it's a O(n)
+// method as the inner loop runs at most 6 times
+float stripClosest(Point strip[], int size, float d)
+{
+	float min = d; // Initialize the minimum distance as d
+
+	// Pick all points one by one and try the next points till the difference
+	// between y coordinates is smaller than d.
+	// This is a proven fact that this loop runs at most 6 times
+	for (int i = 0; i < size; ++i)
+		for (int j = i+1; j < size && (strip[j].y - strip[i].y) < min; ++j)
+			if (dist(strip[i],strip[j]) < min)
+				min = dist(strip[i], strip[j]);
+
+	return min;
+}
+
+// A recursive function to find the smallest distance. The array Px contains
+// all points sorted according to x coordinates and Py contains all points
+// sorted according to y coordinates
+float closestUtil(Point Px[], Point Py[], int n)
+{
+	// If there are 2 or 3 points, then use brute force
+	if (n <= 3)
+		return bruteForce(Px, n);
+
+	// Find the middle point
+	int mid = n/2;
+	Point midPoint = Px[mid];
+
+
+	// Divide points in y sorted array around the vertical line.
+	// Assumption: All x coordinates are distinct.
+	Point Pyl[mid]; // y sorted points on left of vertical line
+	Point Pyr[n-mid]; // y sorted points on right of vertical line
+	int li = 0, ri = 0; // indexes of left and right subarrays
+	for (int i = 0; i < n; i++)
+	{
+	if ((Py[i].x < midPoint.x || (Py[i].x == midPoint.x && Py[i].y < midPoint.y)) && li<mid)
+		Pyl[li++] = Py[i];
+	else
+		Pyr[ri++] = Py[i];
+	}
+
+	// Consider the vertical line passing through the middle point
+	// calculate the smallest distance dl on left of middle point and
+	// dr on right side
+	float dl = closestUtil(Px, Pyl, mid);
+	float dr = closestUtil(Px + mid, Pyr, n-mid);
+
+	// Find the smaller of two distances
+	float d = min(dl, dr);
+
+	// Build an array strip[] that contains points close (closer than d)
+	// to the line passing through the middle point
+	Point strip[n];
+	int j = 0;
+	for (int i = 0; i < n; i++)
+		if (abs(Py[i].x - midPoint.x) < d)
+			strip[j] = Py[i], j++;
+
+	// Find the closest points in strip. Return the minimum of d and closest
+	// distance is strip[]
+	return stripClosest(strip, j, d);
+}
+
+// The main function that finds the smallest distance
+// This method mainly uses closestUtil()
+float closest(Point P[], int n)
+{
+	Point Px[n];
+	Point Py[n];
+	for (int i = 0; i < n; i++)
+	{
+		Px[i] = P[i];
+		Py[i] = P[i];
+	}
+
+	qsort(Px, n, sizeof(Point), compareX);
+	qsort(Py, n, sizeof(Point), compareY);
+
+	// Use recursive function closestUtil() to find the smallest distance
+	return closestUtil(Px, Py, n);
+}
+
+// Driver program to test above functions
+int main()
+{
   size_t n;
   std::cin >> n;
-  vector<int> x(n);
-  vector<int> y(n);
+  //vector<int> x(n);
+  //vector<int> y(n);
+  Point P[n];
   for (size_t i = 0; i < n; i++) {
-    std::cin >> x[i] >> y[i];
+    std::cin >> P[i].x >> P[i].y;
   }
 
-  /* for(int i = 0; i < n; i++){
-    cout << "x[" << i << "]:" << x[i] << ", y[" << i << "]:" << y[i] << endl;
-  } */
-
   std::cout << std::fixed;
-  std::cout << std::setprecision(9) << minimal_distance(x, y, n) << "\n";
+  std::cout << std::setprecision(9) << closest(P, n) << endl;
   
+  return 0;
 }

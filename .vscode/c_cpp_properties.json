@@ -16,6 +16,22 @@
             "cStandard": "gnu17",
             "cppStandard": "gnu++17",
             "intelliSenseMode": "linux-gcc-x64"
+        },
+        {
+            "name": "windows",
+            "includePath": [
+                "${default}"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.22000.0",
+            "compilerPath": "C:/msys64/mingw64/bin/cpp.exe",
+            "intelliSenseMode": "windows-gcc-x64",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++17"
         }
     ],
     "version": 4

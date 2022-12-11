@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/lcs2.dir/lcs2.cpp.o -o lcs2 

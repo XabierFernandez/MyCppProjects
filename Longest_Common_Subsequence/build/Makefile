@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xabier/Git_repos/MyCppProjects/Edit_Distance
+CMAKE_SOURCE_DIR = /home/xabier/Git_repos/MyCppProjects/Longest_Common_Subsequence
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xabier/Git_repos/MyCppProjects/Edit_Distance/build
+CMAKE_BINARY_DIR = /home/xabier/Git_repos/MyCppProjects/Longest_Common_Subsequence/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xabier/Git_repos/MyCppProjects/Edit_Distance/build/CMakeFiles /home/xabier/Git_repos/MyCppProjects/Edit_Distance/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xabier/Git_repos/MyCppProjects/Longest_Common_Subsequence/build/CMakeFiles /home/xabier/Git_repos/MyCppProjects/Longest_Common_Subsequence/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xabier/Git_repos/MyCppProjects/Edit_Distance/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xabier/Git_repos/MyCppProjects/Longest_Common_Subsequence/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,115 +117,78 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named edit_distance
+# Target rules for targets named lcs
 
 # Build rule for target.
-edit_distance: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 edit_distance
-.PHONY : edit_distance
+lcs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lcs
+.PHONY : lcs
 
 # fast build rule for target.
-edit_distance/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/edit_distance.dir/build.make CMakeFiles/edit_distance.dir/build
-.PHONY : edit_distance/fast
+lcs/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcs.dir/build.make CMakeFiles/lcs.dir/build
+.PHONY : lcs/fast
 
 #=============================================================================
-# Target rules for targets named edit_distance_2
+# Target rules for targets named lcs2
 
 # Build rule for target.
-edit_distance_2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 edit_distance_2
-.PHONY : edit_distance_2
+lcs2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lcs2
+.PHONY : lcs2
 
 # fast build rule for target.
-edit_distance_2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/edit_distance_2.dir/build.make CMakeFiles/edit_distance_2.dir/build
-.PHONY : edit_distance_2/fast
+lcs2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcs2.dir/build.make CMakeFiles/lcs2.dir/build
+.PHONY : lcs2/fast
 
-#=============================================================================
-# Target rules for targets named edit_distance_3
-
-# Build rule for target.
-edit_distance_3: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 edit_distance_3
-.PHONY : edit_distance_3
-
-# fast build rule for target.
-edit_distance_3/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/edit_distance_3.dir/build.make CMakeFiles/edit_distance_3.dir/build
-.PHONY : edit_distance_3/fast
-
-edit_distance.o: edit_distance.cpp.o
-.PHONY : edit_distance.o
+lcs.o: lcs.cpp.o
+.PHONY : lcs.o
 
 # target to build an object file
-edit_distance.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/edit_distance.dir/build.make CMakeFiles/edit_distance.dir/edit_distance.cpp.o
-.PHONY : edit_distance.cpp.o
+lcs.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcs.dir/build.make CMakeFiles/lcs.dir/lcs.cpp.o
+.PHONY : lcs.cpp.o
 
-edit_distance.i: edit_distance.cpp.i
-.PHONY : edit_distance.i
+lcs.i: lcs.cpp.i
+.PHONY : lcs.i
 
 # target to preprocess a source file
-edit_distance.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/edit_distance.dir/build.make CMakeFiles/edit_distance.dir/edit_distance.cpp.i
-.PHONY : edit_distance.cpp.i
+lcs.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcs.dir/build.make CMakeFiles/lcs.dir/lcs.cpp.i
+.PHONY : lcs.cpp.i
 
-edit_distance.s: edit_distance.cpp.s
-.PHONY : edit_distance.s
+lcs.s: lcs.cpp.s
+.PHONY : lcs.s
 
 # target to generate assembly for a file
-edit_distance.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/edit_distance.dir/build.make CMakeFiles/edit_distance.dir/edit_distance.cpp.s
-.PHONY : edit_distance.cpp.s
+lcs.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcs.dir/build.make CMakeFiles/lcs.dir/lcs.cpp.s
+.PHONY : lcs.cpp.s
 
-edit_distance_2.o: edit_distance_2.cpp.o
-.PHONY : edit_distance_2.o
+lcs2.o: lcs2.cpp.o
+.PHONY : lcs2.o
 
 # target to build an object file
-edit_distance_2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/edit_distance_2.dir/build.make CMakeFiles/edit_distance_2.dir/edit_distance_2.cpp.o
-.PHONY : edit_distance_2.cpp.o
+lcs2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcs2.dir/build.make CMakeFiles/lcs2.dir/lcs2.cpp.o
+.PHONY : lcs2.cpp.o
 
-edit_distance_2.i: edit_distance_2.cpp.i
-.PHONY : edit_distance_2.i
-
-# target to preprocess a source file
-edit_distance_2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/edit_distance_2.dir/build.make CMakeFiles/edit_distance_2.dir/edit_distance_2.cpp.i
-.PHONY : edit_distance_2.cpp.i
-
-edit_distance_2.s: edit_distance_2.cpp.s
-.PHONY : edit_distance_2.s
-
-# target to generate assembly for a file
-edit_distance_2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/edit_distance_2.dir/build.make CMakeFiles/edit_distance_2.dir/edit_distance_2.cpp.s
-.PHONY : edit_distance_2.cpp.s
-
-edit_distance_3.o: edit_distance_3.cpp.o
-.PHONY : edit_distance_3.o
-
-# target to build an object file
-edit_distance_3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/edit_distance_3.dir/build.make CMakeFiles/edit_distance_3.dir/edit_distance_3.cpp.o
-.PHONY : edit_distance_3.cpp.o
-
-edit_distance_3.i: edit_distance_3.cpp.i
-.PHONY : edit_distance_3.i
+lcs2.i: lcs2.cpp.i
+.PHONY : lcs2.i
 
 # target to preprocess a source file
-edit_distance_3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/edit_distance_3.dir/build.make CMakeFiles/edit_distance_3.dir/edit_distance_3.cpp.i
-.PHONY : edit_distance_3.cpp.i
+lcs2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcs2.dir/build.make CMakeFiles/lcs2.dir/lcs2.cpp.i
+.PHONY : lcs2.cpp.i
 
-edit_distance_3.s: edit_distance_3.cpp.s
-.PHONY : edit_distance_3.s
+lcs2.s: lcs2.cpp.s
+.PHONY : lcs2.s
 
 # target to generate assembly for a file
-edit_distance_3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/edit_distance_3.dir/build.make CMakeFiles/edit_distance_3.dir/edit_distance_3.cpp.s
-.PHONY : edit_distance_3.cpp.s
+lcs2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcs2.dir/build.make CMakeFiles/lcs2.dir/lcs2.cpp.s
+.PHONY : lcs2.cpp.s
 
 # Help Target
 help:
@@ -235,18 +198,14 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... edit_distance"
-	@echo "... edit_distance_2"
-	@echo "... edit_distance_3"
-	@echo "... edit_distance.o"
-	@echo "... edit_distance.i"
-	@echo "... edit_distance.s"
-	@echo "... edit_distance_2.o"
-	@echo "... edit_distance_2.i"
-	@echo "... edit_distance_2.s"
-	@echo "... edit_distance_3.o"
-	@echo "... edit_distance_3.i"
-	@echo "... edit_distance_3.s"
+	@echo "... lcs"
+	@echo "... lcs2"
+	@echo "... lcs.o"
+	@echo "... lcs.i"
+	@echo "... lcs.s"
+	@echo "... lcs2.o"
+	@echo "... lcs2.i"
+	@echo "... lcs2.s"
 .PHONY : help
 
 

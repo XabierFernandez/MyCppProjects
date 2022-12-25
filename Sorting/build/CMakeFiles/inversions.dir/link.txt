@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic CMakeFiles/inversions.dir/inversions.cpp.o -o inversions 

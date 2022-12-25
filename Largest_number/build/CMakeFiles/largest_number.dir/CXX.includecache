@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/xabier/Git_repos/MyCppProjects/Largest_number/largest_number.cpp
+algorithm
+-
+sstream
+-
+iostream
+-
+vector
+-
+string
+-
+

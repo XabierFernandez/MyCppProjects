@@ -1,0 +1,9 @@
+/home/xabier/Git_repos/MyCppProjects/Sorting/build/CMakeFiles/sorting.dir
+/home/xabier/Git_repos/MyCppProjects/Sorting/build/CMakeFiles/sorting3.dir
+/home/xabier/Git_repos/MyCppProjects/Sorting/build/CMakeFiles/inversions.dir
+/home/xabier/Git_repos/MyCppProjects/Sorting/build/CMakeFiles/quicksort.dir
+/home/xabier/Git_repos/MyCppProjects/Sorting/build/CMakeFiles/points_and_segments.dir
+/home/xabier/Git_repos/MyCppProjects/Sorting/build/CMakeFiles/closestPairOfPoints.dir
+/home/xabier/Git_repos/MyCppProjects/Sorting/build/CMakeFiles/closestPairOfPoints_2.dir
+/home/xabier/Git_repos/MyCppProjects/Sorting/build/CMakeFiles/edit_cache.dir
+/home/xabier/Git_repos/MyCppProjects/Sorting/build/CMakeFiles/rebuild_cache.dir

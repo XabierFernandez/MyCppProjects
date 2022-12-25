@@ -1,22 +1,27 @@
 #include <iostream>
+#include <vector>
+#include <bits/stdc++.h>  
+
+using namespace std;
+using std::vector;
 
 int get_change(int m) {
   //write your code here
-  int n = 0;
-  int k  = m;
-  while (k > 0){
-      if(k >= 10){
-        k = k - 10;
-      }
-      else if(k >= 5){
-        k = k - 5;   
-      }
-      else if(k < 5){
-        k = k - 1; 
-      }
-      n = n + 1;
-  }
-  return n;
+  vector<int> solutions(m+1, INT_MAX);
+  vector<int> coins = {1, 3, 4};
+  solutions[0] = 0;    
+
+  for (int i = 1; i <= m; i++) {
+		for (int c = 0; c < coins.size(); c++) {
+			if (i >= coins[c]) {
+				if (solutions[i - coins[c]] != INT_MAX && solutions[i - coins[c]] + 1 < solutions[i])
+					solutions[i] = solutions[i - coins[c]] + 1;
+			}
+		}
+	}
+
+ return solutions[m];
+
 }
 
 int main() {
@@ -24,3 +29,4 @@ int main() {
   std::cin >> m;
   std::cout << get_change(m) << '\n';
 }
+

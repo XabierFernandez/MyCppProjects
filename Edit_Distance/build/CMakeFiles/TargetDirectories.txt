@@ -1,0 +1,5 @@
+/home/xabier/Git_repos/MyCppProjects/Edit_Distance/build/CMakeFiles/edit_distance.dir
+/home/xabier/Git_repos/MyCppProjects/Edit_Distance/build/CMakeFiles/edit_distance_2.dir
+/home/xabier/Git_repos/MyCppProjects/Edit_Distance/build/CMakeFiles/edit_distance_3.dir
+/home/xabier/Git_repos/MyCppProjects/Edit_Distance/build/CMakeFiles/edit_cache.dir
+/home/xabier/Git_repos/MyCppProjects/Edit_Distance/build/CMakeFiles/rebuild_cache.dir

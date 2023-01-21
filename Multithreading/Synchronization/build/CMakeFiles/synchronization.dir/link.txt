@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/synchronization.dir/synchronization.cpp.o -o synchronization 

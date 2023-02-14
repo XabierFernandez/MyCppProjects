@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/create_student.dir/main.cpp.o -o create_student 

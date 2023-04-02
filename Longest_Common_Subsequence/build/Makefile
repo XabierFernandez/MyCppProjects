@@ -142,6 +142,19 @@ lcs2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcs2.dir/build.make CMakeFiles/lcs2.dir/build
 .PHONY : lcs2/fast
 
+#=============================================================================
+# Target rules for targets named lcs3
+
+# Build rule for target.
+lcs3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lcs3
+.PHONY : lcs3
+
+# fast build rule for target.
+lcs3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcs3.dir/build.make CMakeFiles/lcs3.dir/build
+.PHONY : lcs3/fast
+
 lcs.o: lcs.cpp.o
 .PHONY : lcs.o
 
@@ -190,6 +203,30 @@ lcs2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcs2.dir/build.make CMakeFiles/lcs2.dir/lcs2.cpp.s
 .PHONY : lcs2.cpp.s
 
+lcs3.o: lcs3.cpp.o
+.PHONY : lcs3.o
+
+# target to build an object file
+lcs3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcs3.dir/build.make CMakeFiles/lcs3.dir/lcs3.cpp.o
+.PHONY : lcs3.cpp.o
+
+lcs3.i: lcs3.cpp.i
+.PHONY : lcs3.i
+
+# target to preprocess a source file
+lcs3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcs3.dir/build.make CMakeFiles/lcs3.dir/lcs3.cpp.i
+.PHONY : lcs3.cpp.i
+
+lcs3.s: lcs3.cpp.s
+.PHONY : lcs3.s
+
+# target to generate assembly for a file
+lcs3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcs3.dir/build.make CMakeFiles/lcs3.dir/lcs3.cpp.s
+.PHONY : lcs3.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -200,12 +237,16 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... lcs"
 	@echo "... lcs2"
+	@echo "... lcs3"
 	@echo "... lcs.o"
 	@echo "... lcs.i"
 	@echo "... lcs.s"
 	@echo "... lcs2.o"
 	@echo "... lcs2.i"
 	@echo "... lcs2.s"
+	@echo "... lcs3.o"
+	@echo "... lcs3.i"
+	@echo "... lcs3.s"
 .PHONY : help
 
 

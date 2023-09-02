@@ -3,35 +3,16 @@
         {
             "name": "Linux",
             "includePath": [
-                "${default}",
-                "/usr/include/opencv4/opencv2",
-                "/usr/local/lib/wx/include/gtk3-unicode-3.1",
-                "${workspaceFolder}/**"
+                "${default}"
             ],
-            "defines": [],
-            "configurationProvider": "ms-vscode.cmake-tools",
-            "compilerArgs": [
-                "-lm"
-            ],
-            "cStandard": "gnu17",
-            "cppStandard": "gnu++17",
-            "intelliSenseMode": "linux-gcc-x64"
+            "defines": []
         },
         {
-            "name": "windows",
+            "name": "linux",
             "includePath": [
                 "${default}"
             ],
-            "defines": [
-                "_DEBUG",
-                "UNICODE",
-                "_UNICODE"
-            ],
-            "windowsSdkVersion": "10.0.22000.0",
-            "compilerPath": "C:/msys64/mingw64/bin/cpp.exe",
-            "intelliSenseMode": "windows-gcc-x64",
-            "cStandard": "gnu17",
-            "cppStandard": "gnu++17"
+            "defines": []
         }
     ],
     "version": 4

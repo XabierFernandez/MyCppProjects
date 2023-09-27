@@ -1,0 +1,6 @@
+/home/xabier/Git_repos/MyCppProjects/Knapsack/build/CMakeFiles/knapsack.dir
+/home/xabier/Git_repos/MyCppProjects/Knapsack/build/CMakeFiles/knapsack_2.dir
+/home/xabier/Git_repos/MyCppProjects/Knapsack/build/CMakeFiles/partition_souvenir_3.dir
+/home/xabier/Git_repos/MyCppProjects/Knapsack/build/CMakeFiles/placing_parentheses.dir
+/home/xabier/Git_repos/MyCppProjects/Knapsack/build/CMakeFiles/edit_cache.dir
+/home/xabier/Git_repos/MyCppProjects/Knapsack/build/CMakeFiles/rebuild_cache.dir

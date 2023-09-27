@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic CMakeFiles/knapsack_2.dir/knapsack_2.cpp.o -o knapsack_2 

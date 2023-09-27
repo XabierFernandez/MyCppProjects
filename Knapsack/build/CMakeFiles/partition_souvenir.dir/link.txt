@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic CMakeFiles/partition_souvenir.dir/partition_souvenir.cpp.o -o partition_souvenir 

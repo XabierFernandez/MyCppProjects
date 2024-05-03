@@ -1,0 +1,3 @@
+/home/xabier/Git_repos/MyCppProjects/NeuralNetwork/build/CMakeFiles/neuralnetwork.dir
+/home/xabier/Git_repos/MyCppProjects/NeuralNetwork/build/CMakeFiles/edit_cache.dir
+/home/xabier/Git_repos/MyCppProjects/NeuralNetwork/build/CMakeFiles/rebuild_cache.dir

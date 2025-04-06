@@ -5,7 +5,7 @@ events:
     kind: "message-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineSystem.cmake:205 (message)"
-      - "CMakeLists.txt:2 (project)"
+      - "CMakeLists.txt:7 (project)"
     message: |
       The system is: Windows - 10.0.26100 - AMD64
   -
@@ -14,7 +14,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:2 (project)"
+      - "CMakeLists.txt:7 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
       Compiler: C:/Program Files/LLVM/bin/clang.exe 
@@ -36,7 +36,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1281 (message)"
       - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
       - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:2 (project)"
+      - "CMakeLists.txt:7 (project)"
     message: |
       Detecting C compiler /showIncludes prefix:
         
@@ -46,7 +46,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1281 (message)"
       - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
       - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:2 (project)"
+      - "CMakeLists.txt:7 (project)"
     message: |
       Detecting C compiler /showIncludes prefix:
         
@@ -55,12 +55,12 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
       - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:2 (project)"
+      - "CMakeLists.txt:7 (project)"
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-3ubbjm"
-      binary: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-3ubbjm"
+      source: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-lyf3g0"
+      binary: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-lyf3g0"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
@@ -69,16 +69,16 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-3ubbjm'
+        Change Dir: 'C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-lyf3g0'
         
-        Run Build Command(s): C:/PROGRA~1/NINJA-~1/ninja.exe -v cmTC_9c134
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_9c134.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_9c134.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_9c134.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeCCompilerABI.c"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -v -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_9c134.dir/CMakeCCompilerABI.c.obj -o cmTC_9c134.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_9c134.lib -Xlinker /pdb:cmTC_9c134.pdb -Xlinker /version:0.0     && cd ."
+        Run Build Command(s): C:/PROGRA~1/NINJA-~1/ninja.exe -v cmTC_bba0f
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_bba0f.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_bba0f.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_bba0f.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeCCompilerABI.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -v -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_bba0f.dir/CMakeCCompilerABI.c.obj -o cmTC_bba0f.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_bba0f.lib -Xlinker /pdb:cmTC_bba0f.pdb -Xlinker /version:0.0     && cd ."
         clang version 20.1.0
         Target: x86_64-pc-windows-msvc
         Thread model: posix
         InstalledDir: C:\\Program Files\\LLVM\\bin
-         "C:\\\\Program Files\\\\LLVM\\\\bin\\\\lld-link" -out:cmTC_9c134.exe "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.43.34808\\\\lib\\\\x64" "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.43.34808\\\\atlmfc\\\\lib\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.22621.0\\\\ucrt\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.22621.0\\\\um\\\\x64" "-libpath:C:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\20\\\\lib\\\\windows" -nologo -debug /subsystem:console CMakeFiles/cmTC_9c134.dir/CMakeCCompilerABI.c.obj /MANIFEST:EMBED /implib:cmTC_9c134.lib /pdb:cmTC_9c134.pdb /version:0.0\x0d
+         "C:\\\\Program Files\\\\LLVM\\\\bin\\\\lld-link" -out:cmTC_bba0f.exe "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.43.34808\\\\lib\\\\x64" "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.43.34808\\\\atlmfc\\\\lib\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.22621.0\\\\ucrt\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.22621.0\\\\um\\\\x64" "-libpath:C:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\20\\\\lib\\\\windows" -nologo -debug /subsystem:console CMakeFiles/cmTC_bba0f.dir/CMakeCCompilerABI.c.obj /MANIFEST:EMBED /implib:cmTC_bba0f.lib /pdb:cmTC_bba0f.pdb /version:0.0\x0d
         
       exitCode: 0
   -
@@ -86,7 +86,7 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
       - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:2 (project)"
+      - "CMakeLists.txt:7 (project)"
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
@@ -104,7 +104,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
       - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:264 (cmake_determine_linker_id)"
       - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:2 (project)"
+      - "CMakeLists.txt:7 (project)"
     message: |
       Running the C compiler's linker: "C:/Program Files/LLVM/bin/lld-link" "-v"
       lld-link: warning: ignoring unknown argument '-v'
@@ -115,7 +115,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
       - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:264 (cmake_determine_linker_id)"
       - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:2 (project)"
+      - "CMakeLists.txt:7 (project)"
     message: |
       Running the C compiler's linker: "C:/Program Files/LLVM/bin/lld-link" "-V"
       lld-link: warning: ignoring unknown argument '-V'
@@ -126,8 +126,815 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
       - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:264 (cmake_determine_linker_id)"
       - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:2 (project)"
+      - "CMakeLists.txt:7 (project)"
     message: |
       Running the C compiler's linker: "C:/Program Files/LLVM/bin/lld-link" "--version"
       LLD 20.1.0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "open62541/CMakeLists.txt:562 (check_c_compiler_flag)"
+      - "open62541/CMakeLists.txt:579 (check_add_cc_flag)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-vezfuu"
+      binary: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-vezfuu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/open62541/tools/cmake"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-vezfuu'
+        
+        Run Build Command(s): C:/PROGRA~1/NINJA-~1/ninja.exe -v cmTC_853e9
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -Dflag_supported  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c99 -MD -MT CMakeFiles/cmTC_853e9.dir/src.c.obj -MF CMakeFiles\\cmTC_853e9.dir\\src.c.obj.d -o CMakeFiles/cmTC_853e9.dir/src.c.obj -c C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-vezfuu/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_853e9.dir/src.c.obj -o cmTC_853e9.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_853e9.lib -Xlinker /pdb:cmTC_853e9.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "open62541/CMakeLists.txt:562 (check_c_compiler_flag)"
+      - "open62541/CMakeLists.txt:580 (check_add_cc_flag)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-urzviv"
+      binary: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-urzviv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c99"
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/open62541/tools/cmake"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-urzviv'
+        
+        Run Build Command(s): C:/PROGRA~1/NINJA-~1/ninja.exe -v cmTC_5bc90
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -Dflag_supported  -std=c99  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -pipe -MD -MT CMakeFiles/cmTC_5bc90.dir/src.c.obj -MF CMakeFiles\\cmTC_5bc90.dir\\src.c.obj.d -o CMakeFiles/cmTC_5bc90.dir/src.c.obj -c C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-urzviv/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -std=c99  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_5bc90.dir/src.c.obj -o cmTC_5bc90.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_5bc90.lib -Xlinker /pdb:cmTC_5bc90.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "open62541/CMakeLists.txt:562 (check_c_compiler_flag)"
+      - "open62541/CMakeLists.txt:581 (check_add_cc_flag)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-8skcf2"
+      binary: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-8skcf2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c99 -pipe"
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/open62541/tools/cmake"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-8skcf2'
+        
+        Run Build Command(s): C:/PROGRA~1/NINJA-~1/ninja.exe -v cmTC_dac56
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -Dflag_supported  -std=c99 -pipe  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wall -MD -MT CMakeFiles/cmTC_dac56.dir/src.c.obj -MF CMakeFiles\\cmTC_dac56.dir\\src.c.obj.d -o CMakeFiles/cmTC_dac56.dir/src.c.obj -c C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-8skcf2/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -std=c99 -pipe  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_dac56.dir/src.c.obj -o cmTC_dac56.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_dac56.lib -Xlinker /pdb:cmTC_dac56.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "open62541/CMakeLists.txt:562 (check_c_compiler_flag)"
+      - "open62541/CMakeLists.txt:582 (check_add_cc_flag)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-m1vriq"
+      binary: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-m1vriq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c99 -pipe -Wall"
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/open62541/tools/cmake"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-m1vriq'
+        
+        Run Build Command(s): C:/PROGRA~1/NINJA-~1/ninja.exe -v cmTC_a94b9
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -Dflag_supported  -std=c99 -pipe -Wall  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wextra -MD -MT CMakeFiles/cmTC_a94b9.dir/src.c.obj -MF CMakeFiles\\cmTC_a94b9.dir\\src.c.obj.d -o CMakeFiles/cmTC_a94b9.dir/src.c.obj -c C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-m1vriq/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -std=c99 -pipe -Wall  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_a94b9.dir/src.c.obj -o cmTC_a94b9.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_a94b9.lib -Xlinker /pdb:cmTC_a94b9.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "open62541/CMakeLists.txt:562 (check_c_compiler_flag)"
+      - "open62541/CMakeLists.txt:583 (check_add_cc_flag)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-zibj5c"
+      binary: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-zibj5c"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c99 -pipe -Wall -Wextra"
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/open62541/tools/cmake"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-zibj5c'
+        
+        Run Build Command(s): C:/PROGRA~1/NINJA-~1/ninja.exe -v cmTC_95f15
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -Dflag_supported  -std=c99 -pipe -Wall -Wextra  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wpedantic -MD -MT CMakeFiles/cmTC_95f15.dir/src.c.obj -MF CMakeFiles\\cmTC_95f15.dir\\src.c.obj.d -o CMakeFiles/cmTC_95f15.dir/src.c.obj -c C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-zibj5c/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -std=c99 -pipe -Wall -Wextra  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_95f15.dir/src.c.obj -o cmTC_95f15.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_95f15.lib -Xlinker /pdb:cmTC_95f15.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "open62541/CMakeLists.txt:562 (check_c_compiler_flag)"
+      - "open62541/CMakeLists.txt:589 (check_add_cc_flag)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-2n3f16"
+      binary: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-2n3f16"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c99 -pipe -Wall -Wextra -Wpedantic"
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/open62541/tools/cmake"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-2n3f16'
+        
+        Run Build Command(s): C:/PROGRA~1/NINJA-~1/ninja.exe -v cmTC_1f433
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -Dflag_supported  -std=c99 -pipe -Wall -Wextra -Wpedantic  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wno-static-in-inline -MD -MT CMakeFiles/cmTC_1f433.dir/src.c.obj -MF CMakeFiles\\cmTC_1f433.dir\\src.c.obj.d -o CMakeFiles/cmTC_1f433.dir/src.c.obj -c C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-2n3f16/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -std=c99 -pipe -Wall -Wextra -Wpedantic  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_1f433.dir/src.c.obj -o cmTC_1f433.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_1f433.lib -Xlinker /pdb:cmTC_1f433.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "open62541/CMakeLists.txt:562 (check_c_compiler_flag)"
+      - "open62541/CMakeLists.txt:590 (check_add_cc_flag)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-3kumw9"
+      binary: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-3kumw9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline"
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/open62541/tools/cmake"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-3kumw9'
+        
+        Run Build Command(s): C:/PROGRA~1/NINJA-~1/ninja.exe -v cmTC_c9682
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -Dflag_supported  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wno-overlength-strings -MD -MT CMakeFiles/cmTC_c9682.dir/src.c.obj -MF CMakeFiles\\cmTC_c9682.dir\\src.c.obj.d -o CMakeFiles/cmTC_c9682.dir/src.c.obj -c C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-3kumw9/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_c9682.dir/src.c.obj -o cmTC_c9682.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_c9682.lib -Xlinker /pdb:cmTC_c9682.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "open62541/CMakeLists.txt:562 (check_c_compiler_flag)"
+      - "open62541/CMakeLists.txt:591 (check_add_cc_flag)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-4r4hyv"
+      binary: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-4r4hyv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings"
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/open62541/tools/cmake"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-4r4hyv'
+        
+        Run Build Command(s): C:/PROGRA~1/NINJA-~1/ninja.exe -v cmTC_f6ff8
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -Dflag_supported  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wno-unused-parameter -MD -MT CMakeFiles/cmTC_f6ff8.dir/src.c.obj -MF CMakeFiles\\cmTC_f6ff8.dir\\src.c.obj.d -o CMakeFiles/cmTC_f6ff8.dir/src.c.obj -c C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-4r4hyv/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_f6ff8.dir/src.c.obj -o cmTC_f6ff8.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_f6ff8.lib -Xlinker /pdb:cmTC_f6ff8.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "open62541/CMakeLists.txt:562 (check_c_compiler_flag)"
+      - "open62541/CMakeLists.txt:592 (check_add_cc_flag)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-97g77e"
+      binary: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-97g77e"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter"
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/open62541/tools/cmake"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-97g77e'
+        
+        Run Build Command(s): C:/PROGRA~1/NINJA-~1/ninja.exe -v cmTC_7e98d
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -Dflag_supported  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wno-maybe-uninitialized -MD -MT CMakeFiles/cmTC_7e98d.dir/src.c.obj -MF CMakeFiles\\cmTC_7e98d.dir\\src.c.obj.d -o CMakeFiles/cmTC_7e98d.dir/src.c.obj -c C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-97g77e/src.c
+        warning: unknown warning option '-Wno-maybe-uninitialized'; did you mean '-Wno-uninitialized'? [-Wunknown-warning-option]\x0d
+        1 warning generated.\x0d
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_7e98d.dir/src.c.obj -o cmTC_7e98d.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_7e98d.lib -Xlinker /pdb:cmTC_7e98d.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "open62541/CMakeLists.txt:562 (check_c_compiler_flag)"
+      - "open62541/CMakeLists.txt:596 (check_add_cc_flag)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-pybr66"
+      binary: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-pybr66"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter"
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/open62541/tools/cmake"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-pybr66'
+        
+        Run Build Command(s): C:/PROGRA~1/NINJA-~1/ninja.exe -v cmTC_28697
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -Dflag_supported  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wc++-compat -MD -MT CMakeFiles/cmTC_28697.dir/src.c.obj -MF CMakeFiles\\cmTC_28697.dir\\src.c.obj.d -o CMakeFiles/cmTC_28697.dir/src.c.obj -c C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-pybr66/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_28697.dir/src.c.obj -o cmTC_28697.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_28697.lib -Xlinker /pdb:cmTC_28697.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "open62541/CMakeLists.txt:562 (check_c_compiler_flag)"
+      - "open62541/CMakeLists.txt:599 (check_add_cc_flag)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-sa4zu5"
+      binary: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-sa4zu5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat"
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/open62541/tools/cmake"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-sa4zu5'
+        
+        Run Build Command(s): C:/PROGRA~1/NINJA-~1/ninja.exe -v cmTC_2b74b
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -Dflag_supported  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wformat -MD -MT CMakeFiles/cmTC_2b74b.dir/src.c.obj -MF CMakeFiles\\cmTC_2b74b.dir\\src.c.obj.d -o CMakeFiles/cmTC_2b74b.dir/src.c.obj -c C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-sa4zu5/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_2b74b.dir/src.c.obj -o cmTC_2b74b.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_2b74b.lib -Xlinker /pdb:cmTC_2b74b.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "open62541/CMakeLists.txt:562 (check_c_compiler_flag)"
+      - "open62541/CMakeLists.txt:600 (check_add_cc_flag)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-vqudh0"
+      binary: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-vqudh0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat"
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/open62541/tools/cmake"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-vqudh0'
+        
+        Run Build Command(s): C:/PROGRA~1/NINJA-~1/ninja.exe -v cmTC_2912d
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -Dflag_supported  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wformat-security -MD -MT CMakeFiles/cmTC_2912d.dir/src.c.obj -MF CMakeFiles\\cmTC_2912d.dir\\src.c.obj.d -o CMakeFiles/cmTC_2912d.dir/src.c.obj -c C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-vqudh0/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_2912d.dir/src.c.obj -o cmTC_2912d.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_2912d.lib -Xlinker /pdb:cmTC_2912d.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "open62541/CMakeLists.txt:562 (check_c_compiler_flag)"
+      - "open62541/CMakeLists.txt:601 (check_add_cc_flag)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-culjmd"
+      binary: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-culjmd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security"
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/open62541/tools/cmake"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-culjmd'
+        
+        Run Build Command(s): C:/PROGRA~1/NINJA-~1/ninja.exe -v cmTC_b4b1f
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -Dflag_supported  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wformat-nonliteral -MD -MT CMakeFiles/cmTC_b4b1f.dir/src.c.obj -MF CMakeFiles\\cmTC_b4b1f.dir\\src.c.obj.d -o CMakeFiles/cmTC_b4b1f.dir/src.c.obj -c C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-culjmd/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_b4b1f.dir/src.c.obj -o cmTC_b4b1f.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_b4b1f.lib -Xlinker /pdb:cmTC_b4b1f.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "open62541/CMakeLists.txt:562 (check_c_compiler_flag)"
+      - "open62541/CMakeLists.txt:604 (check_add_cc_flag)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-nv85aa"
+      binary: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-nv85aa"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral"
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/open62541/tools/cmake"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-nv85aa'
+        
+        Run Build Command(s): C:/PROGRA~1/NINJA-~1/ninja.exe -v cmTC_3744a
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -Dflag_supported  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wmissing-prototypes -MD -MT CMakeFiles/cmTC_3744a.dir/src.c.obj -MF CMakeFiles\\cmTC_3744a.dir\\src.c.obj.d -o CMakeFiles/cmTC_3744a.dir/src.c.obj -c C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-nv85aa/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_3744a.dir/src.c.obj -o cmTC_3744a.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_3744a.lib -Xlinker /pdb:cmTC_3744a.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "open62541/CMakeLists.txt:562 (check_c_compiler_flag)"
+      - "open62541/CMakeLists.txt:605 (check_add_cc_flag)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-hqgf6t"
+      binary: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-hqgf6t"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes"
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/open62541/tools/cmake"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-hqgf6t'
+        
+        Run Build Command(s): C:/PROGRA~1/NINJA-~1/ninja.exe -v cmTC_51152
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -Dflag_supported  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wstrict-prototypes -MD -MT CMakeFiles/cmTC_51152.dir/src.c.obj -MF CMakeFiles\\cmTC_51152.dir\\src.c.obj.d -o CMakeFiles/cmTC_51152.dir/src.c.obj -c C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-hqgf6t/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_51152.dir/src.c.obj -o cmTC_51152.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_51152.lib -Xlinker /pdb:cmTC_51152.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "open62541/CMakeLists.txt:562 (check_c_compiler_flag)"
+      - "open62541/CMakeLists.txt:607 (check_add_cc_flag)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-sb86eb"
+      binary: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-sb86eb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes"
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/open62541/tools/cmake"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-sb86eb'
+        
+        Run Build Command(s): C:/PROGRA~1/NINJA-~1/ninja.exe -v cmTC_1ecb2
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -Dflag_supported  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wredundant-decls -MD -MT CMakeFiles/cmTC_1ecb2.dir/src.c.obj -MF CMakeFiles\\cmTC_1ecb2.dir\\src.c.obj.d -o CMakeFiles/cmTC_1ecb2.dir/src.c.obj -c C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-sb86eb/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_1ecb2.dir/src.c.obj -o cmTC_1ecb2.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_1ecb2.lib -Xlinker /pdb:cmTC_1ecb2.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "open62541/CMakeLists.txt:562 (check_c_compiler_flag)"
+      - "open62541/CMakeLists.txt:609 (check_add_cc_flag)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-vly2w1"
+      binary: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-vly2w1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls"
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/open62541/tools/cmake"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-vly2w1'
+        
+        Run Build Command(s): C:/PROGRA~1/NINJA-~1/ninja.exe -v cmTC_abd59
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -Dflag_supported  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wuninitialized -MD -MT CMakeFiles/cmTC_abd59.dir/src.c.obj -MF CMakeFiles\\cmTC_abd59.dir\\src.c.obj.d -o CMakeFiles/cmTC_abd59.dir/src.c.obj -c C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-vly2w1/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_abd59.dir/src.c.obj -o cmTC_abd59.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_abd59.lib -Xlinker /pdb:cmTC_abd59.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "open62541/CMakeLists.txt:562 (check_c_compiler_flag)"
+      - "open62541/CMakeLists.txt:610 (check_add_cc_flag)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-p492d8"
+      binary: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-p492d8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized"
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/open62541/tools/cmake"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-p492d8'
+        
+        Run Build Command(s): C:/PROGRA~1/NINJA-~1/ninja.exe -v cmTC_a16f4
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -Dflag_supported  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Winit-self -MD -MT CMakeFiles/cmTC_a16f4.dir/src.c.obj -MF CMakeFiles\\cmTC_a16f4.dir\\src.c.obj.d -o CMakeFiles/cmTC_a16f4.dir/src.c.obj -c C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-p492d8/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_a16f4.dir/src.c.obj -o cmTC_a16f4.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_a16f4.lib -Xlinker /pdb:cmTC_a16f4.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "open62541/CMakeLists.txt:562 (check_c_compiler_flag)"
+      - "open62541/CMakeLists.txt:611 (check_add_cc_flag)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-yx32x3"
+      binary: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-yx32x3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self"
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/open62541/tools/cmake"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-yx32x3'
+        
+        Run Build Command(s): C:/PROGRA~1/NINJA-~1/ninja.exe -v cmTC_1f913
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -Dflag_supported  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wcast-qual -MD -MT CMakeFiles/cmTC_1f913.dir/src.c.obj -MF CMakeFiles\\cmTC_1f913.dir\\src.c.obj.d -o CMakeFiles/cmTC_1f913.dir/src.c.obj -c C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-yx32x3/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_1f913.dir/src.c.obj -o cmTC_1f913.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_1f913.lib -Xlinker /pdb:cmTC_1f913.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "open62541/CMakeLists.txt:562 (check_c_compiler_flag)"
+      - "open62541/CMakeLists.txt:612 (check_add_cc_flag)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-vidztk"
+      binary: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-vidztk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual"
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/open62541/tools/cmake"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-vidztk'
+        
+        Run Build Command(s): C:/PROGRA~1/NINJA-~1/ninja.exe -v cmTC_882f8
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -Dflag_supported  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wstrict-overflow -MD -MT CMakeFiles/cmTC_882f8.dir/src.c.obj -MF CMakeFiles\\cmTC_882f8.dir\\src.c.obj.d -o CMakeFiles/cmTC_882f8.dir/src.c.obj -c C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-vidztk/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_882f8.dir/src.c.obj -o cmTC_882f8.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_882f8.lib -Xlinker /pdb:cmTC_882f8.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "open62541/CMakeLists.txt:562 (check_c_compiler_flag)"
+      - "open62541/CMakeLists.txt:614 (check_add_cc_flag)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-74psb9"
+      binary: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-74psb9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow"
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/open62541/tools/cmake"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-74psb9'
+        
+        Run Build Command(s): C:/PROGRA~1/NINJA-~1/ninja.exe -v cmTC_ae7db
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -Dflag_supported  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wnested-externs -MD -MT CMakeFiles/cmTC_ae7db.dir/src.c.obj -MF CMakeFiles\\cmTC_ae7db.dir\\src.c.obj.d -o CMakeFiles/cmTC_ae7db.dir/src.c.obj -c C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-74psb9/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_ae7db.dir/src.c.obj -o cmTC_ae7db.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_ae7db.lib -Xlinker /pdb:cmTC_ae7db.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "open62541/CMakeLists.txt:562 (check_c_compiler_flag)"
+      - "open62541/CMakeLists.txt:615 (check_add_cc_flag)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-svslqq"
+      binary: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-svslqq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs"
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/open62541/tools/cmake"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-svslqq'
+        
+        Run Build Command(s): C:/PROGRA~1/NINJA-~1/ninja.exe -v cmTC_60fa1
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -Dflag_supported  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wmultichar -MD -MT CMakeFiles/cmTC_60fa1.dir/src.c.obj -MF CMakeFiles\\cmTC_60fa1.dir\\src.c.obj.d -o CMakeFiles/cmTC_60fa1.dir/src.c.obj -c C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-svslqq/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_60fa1.dir/src.c.obj -o cmTC_60fa1.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_60fa1.lib -Xlinker /pdb:cmTC_60fa1.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "open62541/CMakeLists.txt:562 (check_c_compiler_flag)"
+      - "open62541/CMakeLists.txt:616 (check_add_cc_flag)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-iido8i"
+      binary: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-iido8i"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar"
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/open62541/tools/cmake"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-iido8i'
+        
+        Run Build Command(s): C:/PROGRA~1/NINJA-~1/ninja.exe -v cmTC_e66bb
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -Dflag_supported  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wundef -MD -MT CMakeFiles/cmTC_e66bb.dir/src.c.obj -MF CMakeFiles\\cmTC_e66bb.dir\\src.c.obj.d -o CMakeFiles/cmTC_e66bb.dir/src.c.obj -c C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-iido8i/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_e66bb.dir/src.c.obj -o cmTC_e66bb.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_e66bb.lib -Xlinker /pdb:cmTC_e66bb.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "open62541/CMakeLists.txt:562 (check_c_compiler_flag)"
+      - "open62541/CMakeLists.txt:617 (check_add_cc_flag)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-bkq1he"
+      binary: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-bkq1he"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar -Wundef"
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/open62541/tools/cmake"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-bkq1he'
+        
+        Run Build Command(s): C:/PROGRA~1/NINJA-~1/ninja.exe -v cmTC_a997c
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -Dflag_supported  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar -Wundef  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -fno-strict-aliasing -MD -MT CMakeFiles/cmTC_a997c.dir/src.c.obj -MF CMakeFiles\\cmTC_a997c.dir\\src.c.obj.d -o CMakeFiles/cmTC_a997c.dir/src.c.obj -c C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-bkq1he/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar -Wundef  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_a997c.dir/src.c.obj -o cmTC_a997c.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_a997c.lib -Xlinker /pdb:cmTC_a997c.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "open62541/CMakeLists.txt:562 (check_c_compiler_flag)"
+      - "open62541/CMakeLists.txt:618 (check_add_cc_flag)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-c8x105"
+      binary: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-c8x105"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar -Wundef -fno-strict-aliasing"
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/open62541/tools/cmake"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-c8x105'
+        
+        Run Build Command(s): C:/PROGRA~1/NINJA-~1/ninja.exe -v cmTC_60f24
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -Dflag_supported  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar -Wundef -fno-strict-aliasing  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -fexceptions -MD -MT CMakeFiles/cmTC_60f24.dir/src.c.obj -MF CMakeFiles\\cmTC_60f24.dir\\src.c.obj.d -o CMakeFiles/cmTC_60f24.dir/src.c.obj -c C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-c8x105/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar -Wundef -fno-strict-aliasing  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_60f24.dir/src.c.obj -o cmTC_60f24.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_60f24.lib -Xlinker /pdb:cmTC_60f24.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "open62541/CMakeLists.txt:562 (check_c_compiler_flag)"
+      - "open62541/CMakeLists.txt:622 (check_add_cc_flag)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-1ed7fv"
+      binary: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-1ed7fv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar -Wundef -fno-strict-aliasing -fexceptions"
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/open62541/tools/cmake"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-1ed7fv'
+        
+        Run Build Command(s): C:/PROGRA~1/NINJA-~1/ninja.exe -v cmTC_3a72d
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -Dflag_supported  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar -Wundef -fno-strict-aliasing -fexceptions  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -ffunction-sections -MD -MT CMakeFiles/cmTC_3a72d.dir/src.c.obj -MF CMakeFiles\\cmTC_3a72d.dir\\src.c.obj.d -o CMakeFiles/cmTC_3a72d.dir/src.c.obj -c C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-1ed7fv/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar -Wundef -fno-strict-aliasing -fexceptions  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_3a72d.dir/src.c.obj -o cmTC_3a72d.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_3a72d.lib -Xlinker /pdb:cmTC_3a72d.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "open62541/CMakeLists.txt:562 (check_c_compiler_flag)"
+      - "open62541/CMakeLists.txt:623 (check_add_cc_flag)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-5bak5d"
+      binary: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-5bak5d"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar -Wundef -fno-strict-aliasing -fexceptions -ffunction-sections"
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/open62541/tools/cmake"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-5bak5d'
+        
+        Run Build Command(s): C:/PROGRA~1/NINJA-~1/ninja.exe -v cmTC_ef205
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -Dflag_supported  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar -Wundef -fno-strict-aliasing -fexceptions -ffunction-sections  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -fdata-sections -MD -MT CMakeFiles/cmTC_ef205.dir/src.c.obj -MF CMakeFiles\\cmTC_ef205.dir\\src.c.obj.d -o CMakeFiles/cmTC_ef205.dir/src.c.obj -c C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/CMakeFiles/CMakeScratch/TryCompile-5bak5d/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar -Wundef -fno-strict-aliasing -fexceptions -ffunction-sections  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_ef205.dir/src.c.obj -o cmTC_ef205.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_ef205.lib -Xlinker /pdb:cmTC_ef205.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckIPOSupported.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckIPOSupported.cmake:277 (_ipo_run_language_check)"
+      - "open62541/CMakeLists.txt:661 (check_ipo_supported)"
+    directories:
+      source: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/open62541/CMakeFiles/_CMakeLTOTest-C/src"
+      binary: "C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/open62541/CMakeFiles/_CMakeLTOTest-C/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/open62541/CMakeFiles/_CMakeLTOTest-C/bin'
+        
+        Run Build Command(s): C:/PROGRA~1/NINJA-~1/ninja.exe -v
+        [1/4] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -flto=thin -MD -MT CMakeFiles/foo.dir/foo.c.obj -MF CMakeFiles\\foo.dir\\foo.c.obj.d -o CMakeFiles/foo.dir/foo.c.obj -c C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/open62541/CMakeFiles/_CMakeLTOTest-C/src/foo.c
+        [2/4] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -flto=thin -MD -MT CMakeFiles/boo.dir/main.c.obj -MF CMakeFiles\\boo.dir\\main.c.obj.d -o CMakeFiles/boo.dir/main.c.obj -c C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/open62541/CMakeFiles/_CMakeLTOTest-C/src/main.c
+        [3/4] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f foo.lib && C:\\PROGRA~1\\LLVM\\bin\\llvm-ar.exe qc foo.lib  CMakeFiles/foo.dir/foo.c.obj && C:\\PROGRA~1\\LLVM\\bin\\LLVM-R~1.EXE foo.lib && cd ."
+        [4/4] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -flto=thin -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/boo.dir/main.c.obj -o boo.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:boo.lib -Xlinker /pdb:boo.pdb -Xlinker /version:0.0   foo.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
 ...

@@ -11,6 +11,9 @@ static volatile UA_Boolean running = true;
 static const int SESSION_DURATION = 10;   // Force-close session after 10 seconds
 static UA_NodeId currentSessionId;          // To store the active session ID
 
+/* Global pointer to store the default session activation callback */
+static UA_ActivateSessionCallback defaultActivateSession = NULL;
+
 /* Signal handler for clean shutdown */
 static void stopHandler(int sign) {
     UA_LOG_INFO(UA_Log_Stdout, UA_LOGCATEGORY_SERVER,
@@ -37,10 +40,8 @@ static void forceCloseSessionCallback(UA_Server *server, void *data) {
 }
 
 /* Custom session activation callback.
-   - If not in cooldown, store the session ID and schedule a one‑shot callback
-     to force-close it after SESSION_DURATION seconds.
-   - Then call the default activation routine so the session is properly set up.
-   - When the client later uses that session, it will receive a BadSessionClosed error.
+   - Saves the session ID and schedules a one‑shot callback to force-close it after SESSION_DURATION seconds.
+   - Then calls the default activation routine to properly initialize the session.
 */
 static UA_StatusCode customActivateSession(UA_Server *server,
                                              UA_AccessControl *ac,
@@ -55,9 +56,9 @@ static UA_StatusCode customActivateSession(UA_Server *server,
     UA_Server_addTimedCallback(server, forceCloseSessionCallback, NULL,
                                (UA_Double)SESSION_DURATION * 1000, NULL);
     /* Call the default activation routine to properly initialize the session */
-    return ac->activateSession(server, ac, endpoint,
-                               secureChannelRemoteCertificate, sessionId,
-                               userIdentityToken, sessionContext);
+    return defaultActivateSession(server, ac, endpoint,
+                                  secureChannelRemoteCertificate, sessionId,
+                                  userIdentityToken, sessionContext);
 }
 
 int main(void) {
@@ -106,13 +107,12 @@ int main(void) {
     }
     /* --- End default anonymous policy --- */
 
-    /* Initialize the AccessControl structure.
-       Since UA_AccessControl_default() is not available or not used in your configuration,
-       we initialize the structure to zero and then set our custom activateSession callback.
-       (This is a minimal workaround to support our custom logic.)
-    */
-    UA_AccessControl ac;
-    memset(&ac, 0, sizeof(ac));
+    /* Retrieve the default access control and store its activation callback */
+    UA_AccessControl acDefault = UA_AccessControl_default();
+    defaultActivateSession = acDefault.activateSession;
+
+    /* Override only the activateSession callback with our custom implementation */
+    UA_AccessControl ac = acDefault;
     ac.activateSession = customActivateSession;
     config->accessControl = ac;
 

@@ -1,9 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/cmake_install.cmake",
-		"C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/open62541/cmake_install.cmake",
-		"C:/Users/xabie/OneDrive/Documentos/Gitrepos/MyCppProjects/opc_ua/build/open62541/doc/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

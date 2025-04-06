@@ -1,12 +1,14 @@
 cmake_minimum_required(VERSION 3.10)
 
-# Forcing Clang on Windows (adjust paths if necessary)
-set(CMAKE_C_COMPILER "C:/Program Files/LLVM/bin/clang.exe" CACHE STRING "C Compiler" FORCE)
-set(CMAKE_CXX_COMPILER "C:/Program Files/LLVM/bin/clang++.exe" CACHE STRING "C++ Compiler" FORCE)
+# Only force Clang on Windows
+if(WIN32)
+    set(CMAKE_C_COMPILER "C:/Program Files/LLVM/bin/clang.exe" CACHE STRING "C Compiler" FORCE)
+    set(CMAKE_CXX_COMPILER "C:/Program Files/LLVM/bin/clang++.exe" CACHE STRING "C++ Compiler" FORCE)
+endif()
 
 project(OPCUATest C)
 
-# Do not define UA_ENABLE_AMALGAMATION if you want the regular build
+# For a normal build on Linux, ensure the open62541 subdirectory is present
 add_subdirectory(open62541)
 
 add_executable(opc_ua_test opc_ua_test.c)

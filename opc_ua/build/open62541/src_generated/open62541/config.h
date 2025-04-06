@@ -20,8 +20,8 @@
  * ------------
  * Define one of the following. */
 
-#define UA_ARCHITECTURE_WIN32
-/* #undef UA_ARCHITECTURE_POSIX */
+/* #undef UA_ARCHITECTURE_WIN32 */
+#define UA_ARCHITECTURE_POSIX
 /* #undef UA_ARCHITECTURE_ZEPHYR */
 
 /* Select default architecture if none is selected */

@@ -1,0 +1,1 @@
+savedcmd_hello_world.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T /usr/src/kernels/6.13.10-200.fc41.x86_64/scripts/module.lds -o hello_world.ko hello_world.o hello_world.mod.o .module-common.o

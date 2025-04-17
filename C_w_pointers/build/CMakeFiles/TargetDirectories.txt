@@ -1,0 +1,3 @@
+/home/xabier/Documents/Gitrepos/MyCppProjects/C_w_pointers/build/CMakeFiles/hello_world.dir
+/home/xabier/Documents/Gitrepos/MyCppProjects/C_w_pointers/build/CMakeFiles/edit_cache.dir
+/home/xabier/Documents/Gitrepos/MyCppProjects/C_w_pointers/build/CMakeFiles/rebuild_cache.dir
